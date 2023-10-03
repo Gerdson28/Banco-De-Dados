@@ -1,0 +1,218 @@
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+CREATE TABLE clientes (id INTEGER PRIMARY KEY AUTOINCREMENT,nome TEXT, tel NUMERIC)
+-- Resulto: consulta executada com sucesso. Levou 1ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+CREATE TABLE clientes (
+-- Resulto: table clientes already exists
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 2:
+select * from clientes
+-- Resulto: 0 linhas retornadas em 44 ms
+-- Na linha 2:
+select * from clientes
+-- Resulto: 0 linhas retornadas em 45 ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT INT
+-- Resulto: near "INT": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT INTO clientes (nome,tel) VALUES ("bene",8978577589)
+-- Resulto: consulta executada com sucesso. Levou 17ms, 1 linhas afetadas
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+
+-- Resulto: 1 linhas retornadas em 320987 ms
+-- Na linha 1:
+SELECT * from clientes
+-- Resulto: 1 linhas retornadas em 8 ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER TABLE clientes ADD COLUMN cidade TEXT
+-- Resulto: consulta executada com sucesso. Levou 42ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT into cidade ("fortal")
+-- Resulto: incomplete input
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT into clientes cidade
+-- Resulto: near "cidade": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT into clientes cidade
+-- Resulto: near "cidade": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT into clientes(nome,tel,cidade) VALUES ("panela",64364364,"fortaleza")
+-- Resulto: consulta executada com sucesso. Levou 0ms, 1 linhas afetadas
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+SELECT * clientes
+-- Resulto: near "clientes": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+SELECT * FROM clientes
+-- Resulto: 2 linhas retornadas em 11 ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+alter TABLE clientes DROP COLUMN cidade
+-- Resulto: consulta executada com sucesso. Levou 0ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER table add
+-- Resulto: near "add": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER table add
+-- Resulto: near "add": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER table clientes add COLUMN cidade TEXT NOT NULL
+-- Resulto: Cannot add a NOT NULL column with default value NULL
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER TABLE clientes add COLUMN cidade TEXT NOT NULL
+-- Resulto: Cannot add a NOT NULL column with default value NULL
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER TABLE clientes add COLUMN cidade TEXT NOT NULL
+-- Resulto: Cannot add a NOT NULL column with default value NULL
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER table clientes add COLUMN cidade TEXT NOTNULL
+-- Resulto: near "NOTNULL": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER table clientes add COLUMN cidade TEXT NOT NULL
+-- Resulto: Cannot add a NOT NULL column with default value NULL
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+DELETE from clientes
+-- Resulto: consulta executada com sucesso. Levou 0ms, 2 linhas afetadas
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER table clientes add COLUMN cidade TEXT NOT NULL
+-- Resulto: consulta executada com sucesso. Levou 0ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT INTO clientes(nome,tel) VALUES ("benedito",23460194)
+-- Resulto: NOT NULL constraint failed: clientes.cidade
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT INTO clientes(nome,tel,cidade) VALUES ("benedito",23460194,"fortaleza")
+-- Resulto: consulta executada com sucesso. Levou 0ms, 1 linhas afetadas
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+SELECT *from clientes
+-- Resulto: 1 linhas retornadas em 3 ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+add
+-- Resulto: near "add": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER tabela
+-- Resulto: near "tabela": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER TABLE FROM
+-- Resulto: near "FROM": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER TABLE FROM
+-- Resulto: near "FROM": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER TABLE clientes ADD COLUMN estado
+-- Resulto: consulta executada com sucesso. Levou 0ms
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER TABLE clientes ADD COLUMN estado TEXT not
+-- Resulto: duplicate column name: estado
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+DELETE TABLE
+-- Resulto: near "TABLE": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+DELETE FROM clientes
+-- Resulto: consulta executada com sucesso. Levou 0ms, 1 linhas afetadas
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER TABLE clientes ADD COLUMN estado TEXT not
+-- Resulto: duplicate column name: estado
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT INTO clientes (nome,tel,cidade,estado) VALUES ("benedito",12345678,"Fortaleza","Ceará"
+-- Resulto: incomplete input
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT INTO clientes (nome,tel,cidade,estado) VALUES ("benedito",12345678,"Fortaleza","Ceará")
+-- Resulto: consulta executada com sucesso. Levou 1ms, 1 linhas afetadas
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+add
+-- Resulto: near "add": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ADD
+-- Resulto: near "ADD": syntax error
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+INSERT into clientes (nome,tel,cidade,estado) VALUES("gerdson",88208061,"Fortaleza",
+-- Resulto: unrecognized token: ""Ceará)
+
+
+"
+-- EXECUTANDO TUDO EM 'SQL 1'
+--
+-- Na linha 1:
+ALTER table clientes add name (
+-- Resulto: near "(": syntax error
